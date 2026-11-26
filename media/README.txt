@@ -1,0 +1,1 @@
+Upload character01.jpg through character06.jpg and character01.mp4 through character06.mp4 here. All lowercase. The prototype runs without them using labelled placeholders and transcripts. Use consented images/videos only; this published folder is public. Do not upload production scripts or personal contact information.
