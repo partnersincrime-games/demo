@@ -16,3 +16,144 @@ window.CASE = {
   ],
   solution:{culprit:5,motive:"fraud",proof:"access",explanation:"The venue manager controlled the personal account receiving £18,600 in false Lark Supplies payments. Alex had uncovered the fraud and was preparing to expose it. The venue manager falsely claimed to be at reception, but independent records place them alone with Alex during the fatal interval. The other five suspects had independently verified alibis. The missing audit, financial identification and access records together establish the fictional case. The other suspects' disagreements and omissions were distractions, not proof of guilt."}
 };
+
+// Selectable interview answers; stage 2 begins after the audit identity challenge.
+window.CASE.questions = [
+  [
+    {
+      "question": "What was your relationship with Alex?",
+      "answer": "Alex and I were business partners. We disagreed about the auction accounts.",
+      "unlock": 0
+    },
+    {
+      "question": "What was the disagreement about?",
+      "answer": "I wanted an independent audit, and Alex agreed.",
+      "unlock": 0
+    },
+    {
+      "question": "Where were you that evening?",
+      "answer": "I left the archive wing before nine and spent the rest of the evening in the lounge. I didn't go into the archive after that. You can check the guest register.",
+      "unlock": 0
+    },
+    {
+      "question": "Why should we believe you?",
+      "answer": "I know it looks bad that we argued, but I was trying to protect the charity, not hurt anyone.",
+      "unlock": 0
+    }
+  ],
+  [
+    {
+      "question": "What was your role at the event?",
+      "answer": "My role at the event was to organise the auction.",
+      "unlock": 0
+    },
+    {
+      "question": "Where were you at quarter past nine?",
+      "answer": "At around quarter past nine I was at the main desk with the caterer, dealing with a missing delivery.",
+      "unlock": 0
+    },
+    {
+      "question": "What did Alex tell you about the invoices?",
+      "answer": "Alex said there was something important to discuss about the supplier invoices. I remember the name Lark because it was on the paperwork. I didn't know what it meant.",
+      "unlock": 0
+    },
+    {
+      "question": "What did the venue manager tell you?",
+      "answer": "The venue manager told me they would be at reception all evening.",
+      "unlock": 0
+    }
+  ],
+  [
+    {
+      "question": "How did you know Alex?",
+      "answer": "I used to work for Alex. Yes, I was unhappy about leaving. But Alex had invited me to make peace.",
+      "unlock": 0
+    },
+    {
+      "question": "Where were you when the auction ended?",
+      "answer": "I was in the lounge when the auction ended, and the business partner was there too.",
+      "unlock": 0
+    },
+    {
+      "question": "Did anyone ask you about the archive?",
+      "answer": "Yes, someone asked me for a spare archive pass earlier, but I didn't have one.",
+      "unlock": 0
+    },
+    {
+      "question": "Could you access the archive with your own pass?",
+      "answer": "My own pass had been cancelled weeks before. That's everything I know.",
+      "unlock": 0
+    }
+  ],
+  [
+    {
+      "question": "How did you know Alex?",
+      "answer": "Alex was an old friend. We talked just before nine.",
+      "unlock": 0
+    },
+    {
+      "question": "What did Alex say about the document?",
+      "answer": "Alex was worried about a document and said the first meeting date would help locate it.",
+      "unlock": 0
+    },
+    {
+      "question": "What do you remember about the meetings?",
+      "answer": "I remember there had been three supplier meetings that spring.",
+      "unlock": 0
+    },
+    {
+      "question": "Where were you during the incident?",
+      "answer": "I was outside on the terrace during the incident, speaking with the auction volunteer. I didn't see Alex again that evening.",
+      "unlock": 0
+    }
+  ],
+  [
+    {
+      "question": "What was your role at the auction?",
+      "answer": "My role at the auction was to help as a volunteer.",
+      "unlock": 0
+    },
+    {
+      "question": "Where were you when the incident happened?",
+      "answer": "I was on the terrace with the family friend when the incident happened.",
+      "unlock": 0
+    },
+    {
+      "question": "Did Alex show you anything unusual?",
+      "answer": "Earlier, Alex showed me a ledger and said the charity had been paying for services that didn't exist.",
+      "unlock": 0
+    },
+    {
+      "question": "Did you notice anything near the archive?",
+      "answer": "I didn't see the person who went into the archive. I did see the venue manager carrying an envelope earlier that evening, but that might have been nothing.",
+      "unlock": 0
+    }
+  ],
+  [
+    {
+      "question": "What was your role at Blackwood Manor?",
+      "answer": "My role at Blackwood Manor is to manage the venue.",
+      "unlock": 0
+    },
+    {
+      "question": "Where were you between nine and half past nine?",
+      "answer": "I was at reception from nine until half past nine. I never went near the archive during that time.",
+      "unlock": 0
+    },
+    {
+      "question": "Did anybody else have access to your badge?",
+      "answer": "My access badge is mine alone; nobody borrowed it, and I didn't lose it.",
+      "unlock": 0
+    },
+    {
+      "question": "What do you know about Lark Supplies?",
+      "answer": "As for Lark, I assumed it was a legitimate supplier. I don't handle its finances. If there was a problem with the accounts, Alex never mentioned it to me.",
+      "unlock": 0
+    },
+    {
+      "question": "The audit links the payments to your staff identifier. How do you explain that?",
+      "answer": "I have nothing further to add about the payments. I stand by my original statement about where I was that evening.",
+      "unlock": 2
+    }
+  ]
+];
